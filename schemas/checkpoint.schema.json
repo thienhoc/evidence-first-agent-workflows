@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Resumable workflow checkpoint",
+  "type": "object",
+  "required": ["capsuleId", "state", "nextAction", "updatedAt"],
+  "properties": {
+    "capsuleId": {"type": "string", "minLength": 1},
+    "state": {"enum": ["READY", "IN_PROGRESS", "BLOCKED", "RESUME_OK", "DONE"]},
+    "nextAction": {"type": "string", "minLength": 1},
+    "updatedAt": {"type": "string", "minLength": 1}
+  }
+}

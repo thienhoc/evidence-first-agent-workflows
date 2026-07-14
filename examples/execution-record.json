@@ -1,0 +1,10 @@
+{
+  "capsuleId": "CAPSULE-DEMO-001",
+  "verdict": "PASS",
+  "command": "python3 tools/validate_records.py examples",
+  "artifacts": [
+    {"id": "ART-CAPSULE", "path": "examples/capsule.json"},
+    {"id": "ART-CHECKPOINT", "path": "examples/checkpoint.json"},
+    {"id": "ART-EXECUTION", "path": "examples/execution-record.json"}
+  ]
+}

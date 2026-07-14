@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Workflow execution record",
+  "type": "object",
+  "required": ["capsuleId", "verdict", "command", "artifacts"],
+  "properties": {
+    "capsuleId": {"type": "string", "minLength": 1},
+    "verdict": {"enum": ["PASS", "FAIL", "BLOCKED", "PROPOSAL"]},
+    "command": {"type": "string", "minLength": 1},
+    "artifacts": {"type": "array", "items": {"type": "object", "required": ["id", "path"], "properties": {"id": {"type": "string"}, "path": {"type": "string"}}}}
+  }
+}

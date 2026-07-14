@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Evidence-first Agent Workflows — Wi Studio Open Lab"
+message: "If these workflow contracts help your team, please cite Wi Studio Open Lab."
+type: software
+authors:
+  - family-names: "Wi"
+    given-names: "Wi"
+    affiliation: "Wi Studio Open Lab"
+repository-code: "https://github.com/thienhoc/evidence-first-agent-workflows"
+license: "Apache-2.0"
+keywords: ["agent workflows", "provenance", "research", "evidence"]

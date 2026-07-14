@@ -1,0 +1,8 @@
+{
+  "id": "CAPSULE-DEMO-001",
+  "objective": "Validate a small public workflow contract",
+  "workstream": "PUBLIC_DEMO",
+  "sourceBoundary": ["examples/", "schemas/"],
+  "evidenceCeiling": "Documentation and local validator evidence only",
+  "expectedArtifacts": ["checkpoint.json", "execution-record.json"]
+}
