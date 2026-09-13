@@ -2,16 +2,3 @@
 **Legacy / predecessor of Wi Amis.** This repository preserves the earlier product and its license. The imported source and history now live at [Wi Amis legacy/evidence-first-agent-workflows](https://github.com/Hazumi-Lab/wi-amis/tree/main/legacy/evidence-first-agent-workflows); that destination is private and requires access. Instructions below describe this historical source, not the current Wi Amis runtime. Do not infer that this old repository is the active development target.
 <!-- END-WI-REPOSITORY-LOCATION -->
 
-# Evidence-first Agent Workflows — Wi Studio Open Lab
-
-Bộ contract nhỏ, trung lập với tool, cho các luồng nghiên cứu và coding cần provenance, checkpoint và ranh giới evidence rõ ràng.
-
-Chạy thử:
-
-```bash
-python3 tools/validate_records.py examples
-```
-
-Nguyên tắc: proposal không phải implementation evidence; checkpoint phải resume được; path riêng, credential và dữ liệu cá nhân không được vào record công khai.
-
-**Wi Studio Open Lab · by Wi**
